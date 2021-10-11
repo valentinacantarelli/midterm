@@ -5,7 +5,7 @@
       <ul>
         <li v-for="(el,index) in menu" :key="index">
           <a :href="el.url">{{el.text}}</a></li>
-          <i class="fas fa-th"></i>
+          <span><img src="../assets/img/svg-1.svg" alt=""></span>
       </ul>
       
     </nav>
@@ -49,6 +49,7 @@ export default {
 </script>
 
 <style  lang="scss" scope>
+@import '../assets/style/variables';
 header{
   display: flex;
   width:100%;
@@ -70,12 +71,16 @@ header{
       font-weight:500;
 
       a:hover{
-        border-bottom: 3px solid #f0cebe;
+        border-bottom: 3px solid $primaryCol;
       }
     }
   }
-  .fa-th{
-    padding:2px 0 0 16px;
+  span{
+    padding-left:16px;
+    
+    img{
+      height:15px;
+    }
   }
 }
 </style>
