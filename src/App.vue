@@ -3,6 +3,7 @@
     <Header/>
     <main>
       <Hero/>
+      <Squares/>
     </main>
     <Footer/>
   </div>
@@ -12,6 +13,7 @@
 
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
+import Squares from './components/Squares.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -19,6 +21,7 @@ export default {
   components: {
     Hero,
     Header,
+    Squares,
     Footer
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <section>
-      <i class="fas fa-chevron-left"></i>
+      <a href="#"><i class="fas fa-chevron-left"></i></a>
       <div class="heroLeft"><span>  Devotion that never</span> <span class="alternativeTxt"><em>ends</em></span>
       <p>Lorem ipsum dmet,  uptatibus pro sint aut dolorum, aliquid 
         conquatur sit accusamus doloribus.</p>
@@ -13,7 +13,7 @@
         <img src="../assets/img/h-2-slider-img-16.png" alt="hero">
         <img src="../assets/img/h-2-slider-img-17.png" alt="foglia" class="bgimg">
       </div>
-      <i class="fas fa-chevron-right"></i>
+      <a href="#"><i class="fas fa-chevron-right"></i></a>
     </section>
   </div>
 </template>
@@ -79,7 +79,7 @@ export default {
         height: 250px;
       }
       .bgimg{
-        height:55px;
+        height:60px;
       }
     }
   }  
