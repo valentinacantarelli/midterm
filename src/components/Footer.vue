@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <footer>
+
+  </footer>
 </template>
 
 <script>
@@ -9,5 +11,7 @@ export default {
 </script>
 
 <style  lang="scss" scope>
-
+footer{
+  background-color: #c0e1cf;
+}
 </style>

@@ -6,6 +6,7 @@
       <Squares/>
       <Working/>
       <Message/>
+      <Articles/>
     </main>
     <Footer/>
   </div>
@@ -18,6 +19,7 @@ import Hero from './components/Hero.vue'
 import Squares from './components/Squares.vue'
 import Working from './components/Working.vue'
 import Message from './components/Message.vue'
+import Articles from './components/Articles.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -28,6 +30,7 @@ export default {
     Squares,
     Working,
     Message,
+    Articles,
     Footer
   }
 }
