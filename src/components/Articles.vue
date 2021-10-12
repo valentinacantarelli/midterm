@@ -33,11 +33,17 @@ export default {
         width: calc(100% / 3);
         img{
             width:380px;
+            transform: scale(1);
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.01);
+            }
         }
         h3{
             font-weight: 400;
             padding:15px 5px;
-        }
+           }
+        
         p{
             font-family: 'Cormorant Upright', serif; 
             font-size: 16px;

@@ -48,7 +48,7 @@ div{
   h2{
     font-size: 55px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 70px;
     font-weight: 300;
 
     span{
@@ -58,10 +58,10 @@ div{
     }
   }
   .working{
-  width:70%;
+  width:75%;
   background-image: url(../assets/img/svg-3.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:top;
   display: flex;
   margin-top: 160px;
   margin-bottom:130px;
@@ -97,7 +97,8 @@ div{
   h4{
     font-weight:400;
     text-align: center;
-    padding-top:8px;
+    padding:15px 0 8px 0;
+    font-size:18px;
     } 
    p{
      font-weight: 300;

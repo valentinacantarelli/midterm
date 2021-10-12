@@ -16,10 +16,10 @@
       <div>
         <p>Stay in touch with us</p> 
         <p class="social">
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-pinterest-p"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-linkedin-in"></i>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </p> 
       </div>
     </section>

@@ -40,8 +40,17 @@ export default {
             border: none;
             padding:20px 42px;
             margin-bottom:50px;
+            transition: 0.3s;
+            &:hover{
+                background-color: #f3d0c7;
+                
+            }
             a{
                 padding:15px;
+                transition: 0.3s;
+                &:hover{
+                    color:white;
+                }
             }
         }
     }

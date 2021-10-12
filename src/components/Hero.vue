@@ -68,10 +68,16 @@ export default {
         font-size:14px;
         border: none;
         background-color: white;
+        padding:10px 15px;
         
         a{
           padding:10px 15px;
           border: 3px solid $primaryCol;
+          transition: 0.3s;
+          &:hover{
+            color: white;
+            background-color: $primaryCol;
+          }
         }
       }
     }
