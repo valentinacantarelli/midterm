@@ -28,8 +28,9 @@ export default {
 @import '../assets/style/variables';
 .hero{
   width:100%;
-  height:200px;
-  padding-top:80px;
+  height:290px;
+  padding-top:90px;
+  background-color: white;
 
   section{
     display: flex;
@@ -38,21 +39,20 @@ export default {
 
     i{
     background-color: $primaryCol;
-    height: 20px;
-    width:20px;
+    height: 25px;
+    width:25px;
     border-radius: 50%;
     color:white;
     margin: 90px 0px;
     text-align: center;
-    line-height: 20px;
+    line-height: 25px;
     }
-
     .heroLeft{
-      width: 30%;
+      width: 33%;
       font-family: 'Poppins', sans-serif;
-      font-size:45px;
+      font-size:67px;
       font-weight: 300;
-      line-height: 50px;
+      line-height: 65px;
 
       .alternativeTxt{
         font-family: 'Cormorant Upright', serif;
@@ -65,21 +65,23 @@ export default {
         padding: 17px 0;
       }
       button{
-        font-size:12px;
-        border: 3px solid $primaryCol;
-        padding: 8px 13px;
+        font-size:14px;
+        border: none;
         background-color: white;
-        font-weight: 700;
+        
+        a{
+          padding:10px 15px;
+          border: 3px solid $primaryCol;
+        }
       }
     }
     .heroRight{
-      width:39%;
 
       img{
-        height: 250px;
+        height: 320px;
       }
       .bgimg{
-        height:60px;
+        height:75px;
       }
     }
   }  

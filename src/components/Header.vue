@@ -58,7 +58,7 @@ header{
   font-family: 'Poppins', sans-serif;
 
   img{
-    height: 20px;
+    height: 25px;
   }
 
   ul{
@@ -66,12 +66,12 @@ header{
     margin-right:18px;
 
     li{
-      padding:0px 15px;
-      font-size: 13px;
+      padding:0px 20px;
+      font-size: 15px;
       font-weight:500;
 
       a:hover{
-        border-bottom: 3px solid $primaryCol;
+        border-bottom: 4px solid $primaryCol;
       }
     }
   }
