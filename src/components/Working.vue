@@ -46,7 +46,7 @@ div{
   font-family: 'Poppins', sans-serif;
   
   h2{
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     padding-top: 80px;
     font-weight: 300;
@@ -64,7 +64,7 @@ div{
   background-position: center;
   display: flex;
   margin-top: 160px;
-  margin-bottom:200px;
+  margin-bottom:130px;
   justify-content: space-between;
   
   
