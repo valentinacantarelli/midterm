@@ -44,7 +44,7 @@ export default {
             transition: 0.3s;
             &:hover{
                 background-color: $primaryCol;
-                
+                 color:white;
             }
             a{
                 padding:15px;
