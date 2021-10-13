@@ -8,7 +8,7 @@
     <img src="../assets/img/h-2-port-img-6.jpg" alt="">
     <!-- <ul>
       <li v-for="(img,index) in pictures" :key="index">
-        <img :src="'../assets/img/h-2-port-img-'+ img.numbers + '.jpg'" alt="">
+        <img :src="('../assets/img/'+ img.numbers )" alt="">
       </li>
     </ul> -->
   </div>
@@ -21,22 +21,22 @@ export default {
       return{
         pictures:[
           {
-            numbers:"1",
+            numbers:"h-2-port-img-1.jpg",
           },
           {
-            numbers:"2",
+            numbers:"h-2-port-img-2.jpg",
           },
           {
-            numbers:"3",
+            numbers:"h-2-port-img-3.jpg",
           },
           {
-            numbers:"4",
+            numbers:"h-2-port-img-4.jpg",
           },
           {
-            numbers:"5",
+            numbers:"h-2-port-img-5.jpg",
           },
           {
-            numbers:"6",
+            numbers:"h-2-port-img-6.jpg",
           },
         ]
       }

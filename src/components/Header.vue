@@ -53,12 +53,12 @@ export default {
 header{
   display: flex;
   width:100%;
-  padding:20px;
+  padding:30px 27px;
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
 
   img{
-    height: 25px;
+    height: 30px;
   }
 
   ul{
@@ -66,12 +66,13 @@ header{
     margin-right:18px;
 
     li{
-      padding:0px 20px;
+      padding:0px 30px;
       font-size: 15px;
       font-weight:500;
-
+      
       a:hover{
         border-bottom: 4px solid $primaryCol;
+        transition: 0.2s;
       }
     }
   }

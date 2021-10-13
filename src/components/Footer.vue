@@ -6,12 +6,12 @@
         <p>Let's Get Creative</p>
       </div>
       <div>
-        <p>maree.qode@gmail.com</p> 
-        <p>+44645 321 789</p>
+        <p >maree.qode@gmail.com</p> 
+        <p >+44645 321 789</p>
       </div>
       <div>
-        <p>Avenue d'Auderghem 10</p> 
-        <p>1040 Brussels, Belgium</p> 
+        <p >Avenue d'Auderghem 10</p> 
+        <p >1040 Brussels, Belgium</p> 
       </div>
       <div>
         <p>Stay in touch with us</p> 
@@ -34,8 +34,9 @@ export default {
 </script>
 
 <style  lang="scss" scope>
+@import '../assets/style/variables';
 footer{
-  background-color: #c0e1cf;
+  background-color:$lightGreen;
   .menu{
     padding:60px 0 80px 0;
     display:flex;
@@ -44,11 +45,19 @@ footer{
       padding-top:10px;
       font-size: 15px;
       font-weight: 300;
+      border-bottom:4px solid transparent;
+      transition: 0.3s;
+      
     }
     .social{
       display:flex;
       justify-content: space-between;
       font-size:18px;
+     
+      a:hover{
+        color:white;
+        transition: 0.3s;
+      }
     }
   }
 }

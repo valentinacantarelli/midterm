@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style lang="scss" scope>
+@import '../assets/style/variables';
 .message{
     background-image:url(../assets/img/h-2-background-1.jpg);
     height:100%;
@@ -36,13 +37,13 @@ export default {
             padding-bottom: 40px;
         }
         button{
-            background-color: #d8f0e3; 
+            background-color: $sndLightGreen; 
             border: none;
             padding:20px 42px;
             margin-bottom:50px;
             transition: 0.3s;
             &:hover{
-                background-color: #f3d0c7;
+                background-color: $primaryCol;
                 
             }
             a{
