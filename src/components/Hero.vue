@@ -100,22 +100,64 @@ export default {
       }
       .rosa{
           bottom:300px;
-          height:50px;
+          height:45px;
           left:700px;
+          opacity:0;
+          animation-name:appear;
+          animation-duration: 8s;
+          animation-iteration-count: infinite;
+          @keyframes appear{
+          0%{opacity:0;}
+          50%{opacity:1;}
+          100%{opacity:0;}
+        }
         }
       .foglia{
         bottom:510px;
         height: 45px;
+        opacity:0;
+        animation-name:exs;
+        animation-duration:4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        @keyframes exs{
+          0%{opacity:0;bottom:510px;}
+          25%{opacity:0.5;bottom:520px;}
+          50%{opacity:1;bottom:530px;}
+          75%{opacity:1;bottom:520px;}
+          100%{opacity:0;bottom:510px;}
+        }
       }
       .viola{
         bottom:540px;
         right:230px;
         height: 50px;
+        opacity:0;
+        animation-name:app;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        @keyframes app{
+        0%{opacity:0;}
+        50%{opacity:1;}
+        100%{opacity:0;}
+        }
       }
       .foglie{
         bottom:480px;
         height: 45px;
         right:200px;
+        opacity:0;
+        animation-name:ex;
+        animation-duration:6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        @keyframes ex{
+          0%{opacity:0;right:200px;}
+          25%{opacity:0.5;right:170px;}
+          50%{opacity:1;right:185px;}
+          75%{opacity:1;right:200px;}
+          100%{opacity:0;right:200px;}
+        }
       }
     }
   }  
